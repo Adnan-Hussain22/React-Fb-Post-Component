@@ -1,0 +1,98 @@
+.newsfeed-component {
+  padding-bottom: 5px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.newsfeed-component .newsfeed-header {
+  position: relative;
+  height: 40px;
+  margin-bottom: 50px;
+}
+
+.newsfeed-component .newsfeed-header .post-description {
+  position: absolute;
+  bottom: -40px;
+  font-size: 105%;
+}
+
+.newsfeed-component .newsfeed-header .post-info,
+.post-options {
+  position: absolute;
+  top: 0px;
+}
+
+.newsfeed-component .newsfeed-header .post-info {
+  left: 0px;
+}
+
+.newsfeed-component .newsfeed-header .post-options {
+  right: 0px;
+  font-size: 120%;
+  color: #888585;
+}
+
+.newsfeed-component .newsfeed-header .post-info .avatar {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+
+.newsfeed-component .newsfeed-header .post-info .avatar img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.newsfeed-component .newsfeed-header .post-info .info {
+  display: inline-table;
+  margin-left: 15px;
+}
+
+.newsfeed-component .newsfeed-header .post-info .info .privacy {
+  font-size: 105%;
+  color: silver;
+}
+
+.newsfeed-component .newsfeed-footer {
+  position: absolute;
+  width: 94%;
+  bottom: 10px;
+}
+
+.newsfeed-component .newsfeed-footer .Emojis {
+  position: absolute;
+  top: -60px;
+  box-shadow: 1px 1px 2px 2px #c1c1c1;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.newsfeed-component .newsfeed-footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-left: -12px;
+  margin-right: -12px;
+  border-top: 1px solid silver;
+  padding-top: 5px;
+}
+
+.newsfeed-component .newsfeed-footer ul li {
+  display: inline-block;
+  width: 33.333333333333%;
+  text-align: center;
+  height: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.newsfeed-component .newsfeed-footer ul li:hover {
+  background-color: whitesmoke;
+}
+
+.newsfeed-component .newsfeed-footer ul li i {
+  font-size: 130%;
+  line-height: 30px;
+  margin-right: 8px;
+}
